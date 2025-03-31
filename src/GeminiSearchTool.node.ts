@@ -14,7 +14,6 @@ export class GeminiSearchTool implements INodeType {
     description: INodeTypeDescription = {
         displayName: 'Gemini Google Search Tool',
         name: 'geminiSearchTool',
-        icon: 'file:google.svg',
         group: ['ai', 'tools'],
         version: 1,
         description: 'Uses Google Gemini API to perform a grounded Google Search',
