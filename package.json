@@ -29,9 +29,9 @@
     "grounding"
   ],
   "n8n": {
-      "n8nNodesApiVersion": 1,
-      "credentials": "dist/GoogleGeminiApi.credentials.js",
-      "nodes": "dist/GeminiSearchTool.node.js"
+    "n8nNodesApiVersion": 1,
+    "credentials": ["dist/GoogleGeminiApi.credentials.js"],
+    "nodes": ["dist/GeminiSearchTool.node.js"]
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
