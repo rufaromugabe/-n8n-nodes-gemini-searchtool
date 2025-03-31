@@ -29,18 +29,9 @@
     "grounding"
   ],
   "n8n": {
-    "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/GoogleGeminiApi.credentials.js"
-    ],
-    "nodes": [
-      {
-        "filePath": "dist/GeminiSearchTool.node.js",
-        "name": "geminiSearchTool",
-        "displayName": "Gemini Google Search Tool",
-        "description": "Uses Google Gemini API to perform a grounded Google Search"
-      }
-    ]
+      "n8nNodesApiVersion": 1,
+      "credentials": "dist/GoogleGeminiApi.credentials.js",
+      "nodes": "dist/GeminiSearchTool.node.js"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
